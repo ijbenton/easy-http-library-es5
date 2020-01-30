@@ -51,11 +51,11 @@ const http = new easyHTTP();
 //   }
 // });
 
-// Delete a post
-http.delete('https://jsonplaceholder.typicode.com/posts/2', function(err, res) {
-  if (err) {
-    console.log(err);
-  } else {
-    console.log(res);
-  }
-});
+// // Delete a post
+// http.delete('https://jsonplaceholder.typicode.com/posts/2', function(err, res) {
+//   if (err) {
+//     console.log(err);
+//   } else {
+//     console.log(res);
+//   }
+// });
